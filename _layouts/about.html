@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <header class="page-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+
+    {% include nav.html %}
+
+    <div class="wrapper">
+      <div class="post-header">
+        <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <h1 class="post-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+            <p class="subheading post">{{ page.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="post">
+        <article class="post-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
