@@ -124,18 +124,18 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+  width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+  width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -255,7 +255,8 @@
 .page-header .post-header,
 .page-header .page-header {
   padding: 100px 0 50px;
-  color: white;
+  font-family: $title-font-family;
+  color: $dark;
 }
 @media only screen and (min-width: 768px) {
   .page-header .site-header,
@@ -304,9 +305,8 @@
   font-weight: 600;
 }
 .page-header .post-header .meta {
-  font-family: $base-font-family;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 800;
   font-size: 20px;
 }
 .page-header .post-header .meta a {
@@ -336,4 +336,25 @@
 .site-title:hover a,
 .site-nav:hover a {
   color: rgba(0, 0, 0, 0.8);
+}
+
+
+.image-wrapper {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.image-wrapper:hover,
+.image-wrapper:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
