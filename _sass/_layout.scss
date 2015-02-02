@@ -358,3 +358,14 @@
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
+
+
+.post-preview .post-title {
+  font-family: $title-font-family;
+  font-weight: 400;
+  color: $grey-color;
+}
+.preview-post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
