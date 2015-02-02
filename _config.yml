@@ -1,5 +1,7 @@
 # Site settings
 title: Sergey Evstifeev
+theme: "In The Works"
+theme_expanded: "Some stuff"
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -11,6 +13,7 @@ twitter_username: sergeyevstifeev
 github_username:  sergeyevstifeev
 avatar: images/avatar.jpeg
 header-img: images/sky.jpeg
+paginate: 5
 
 # Build settings
 markdown: kramdown
