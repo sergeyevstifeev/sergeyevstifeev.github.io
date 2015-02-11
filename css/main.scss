@@ -6,11 +6,12 @@
 
 
 // Our variables
-$base-font-family: 'Lora', 'Times New Roman', serif;
+$base-font-family: 'Roboto', sans-serif;
 $nav-font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $title-font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
+$code-font-size:   $small-font-size;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -50,6 +51,5 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;
