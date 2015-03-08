@@ -7,6 +7,7 @@
 
 // Our variables
 $base-font-family: 'Roboto', sans-serif;
+$code-font-family: 'Lucida Console', Monaco, monospace;
 $nav-font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $title-font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -26,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $dark:             darken($grey-color, 80%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    700px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

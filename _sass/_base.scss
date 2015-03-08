@@ -139,6 +139,7 @@ blockquote {
 /* Code Blocks */
 .post pre code {
     font-size: $code-font-size;
+    font-family: $code-font-family;
     color: #93a1a1;
     background: #002b36;
     border: none;
