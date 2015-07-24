@@ -10,7 +10,7 @@ $base-font-family: 'Roboto', sans-serif;
 $code-font-family: 'Lucida Console', Monaco, monospace;
 $nav-font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $title-font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
 $code-font-size:   $small-font-size;
 $base-line-height: 1.5;
@@ -27,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 $dark:             darken($grey-color, 80%);
 
 // Width of the content area
-$content-width:    700px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
