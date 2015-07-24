@@ -369,3 +369,31 @@
   font-size: $small-font-size;
   color: $grey-color;
 }
+
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.round img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.short-about-row {
+  overflow: auto;
+}
+.short-about-row .round {
+  float: left;
+  display: block;
+}
+.short-about-text {
+  font-size: $small-font-size;
+  margin-left: 30%;
+}
